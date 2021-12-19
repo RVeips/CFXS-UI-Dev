@@ -1,0 +1,24 @@
+[submodule "CMake"]
+	path = CMake
+	url = https://github.com/CFXS/CFXS-CMake-Bare-Metal-Toolchain.git
+	branch = master
+[submodule "CFXS_UI_Dev/vendor/CFXS-Base"]
+	path = CFXS_UI_Dev/vendor/CFXS-Base
+	url = https://github.com/CFXS/CFXS-Base.git
+	branch = master
+[submodule "CFXS_UI_Dev/vendor/CFXS-HW"]
+	path = CFXS_UI_Dev/vendor/CFXS-HW
+	url = https://github.com/CFXS/CFXS-HW.git
+	branch = master
+[submodule "CFXS_UI_Dev/vendor/tm4c-driverlib"]
+	path = CFXS_UI_Dev/vendor/tm4c-driverlib
+	url = https://github.com/CFXS/tm4c-driverlib.git
+	branch = master
+[submodule "CFXS_UI_Dev/vendor/LicenseGen"]
+	path = CFXS_UI_Dev/vendor/LicenseGen
+	url = https://github.com/CFXS/CFXS-License-Header-Generator.git
+	branch = master
+[submodule "CFXS_UI_Dev/vendor/SeggerRTT-printf"]
+	path = CFXS_UI_Dev/vendor/SeggerRTT-printf
+	url = https://github.com/CFXS/SeggerRTT-printf.git
+	branch = master

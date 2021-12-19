@@ -1,0 +1,179 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "CFXS_UI_Dev",
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5
+					],
+					"jsonFile" : "directory-CFXS_UI_Dev-Debug-ee31cd790ea70531222c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "CFXS_UI_Dev",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "CFXS_UI_Dev/vendor/CFXS-Base",
+					"jsonFile" : "directory-CFXS_UI_Dev.vendor.CFXS-Base-Debug-ff6874b1fa9b86cd0c9e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "CFXS_UI_Dev/vendor/CFXS-Base",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "CFXS_UI_Dev/vendor/CFXS-HW",
+					"jsonFile" : "directory-CFXS_UI_Dev.vendor.CFXS-HW-Debug-04176d311522d4097783.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "CFXS_UI_Dev/vendor/CFXS-HW",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "CFXS_UI_Dev/vendor/tm4c-driverlib",
+					"jsonFile" : "directory-CFXS_UI_Dev.vendor.tm4c-driverlib-Debug-9ed78158e5e0ba94a6d7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "CFXS_UI_Dev/vendor/tm4c-driverlib",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "CFXS_UI_Dev/vendor/SeggerRTT-printf",
+					"jsonFile" : "directory-CFXS_UI_Dev.vendor.SeggerRTT-printf-Debug-f2162f76fe05fbe2c233.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "CFXS_UI_Dev/vendor/SeggerRTT-printf",
+					"targetIndexes" : 
+					[
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"name" : "CFXS_UI_Dev",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "CFXS_Base::@73c6da0854485b2d1d22",
+					"jsonFile" : "target-CFXS_Base-Debug-cb3d1101bc246ca9cc47.json",
+					"name" : "CFXS_Base",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "CFXS_HW::@5b44afd7883655c6d53d",
+					"jsonFile" : "target-CFXS_HW-Debug-75a90e5aad3b5f62b1df.json",
+					"name" : "CFXS_HW",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "CFXS_UI_Dev::@876d39b52454ad3c908d",
+					"jsonFile" : "target-CFXS_UI_Dev-Debug-76930127acfb9520d733.json",
+					"name" : "CFXS_UI_Dev",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "printf_impl_SeggerRTT::@67d83fd530b55028667b",
+					"jsonFile" : "target-printf_impl_SeggerRTT-Debug-0ab040d5c0ad78276055.json",
+					"name" : "printf_impl_SeggerRTT",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "tm4c_driverlib::@a28f78a031efd8bcfa84",
+					"jsonFile" : "target-tm4c_driverlib-Debug-fe38ead6e79f4e52d5d1.json",
+					"name" : "tm4c_driverlib",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/CFXS_Projects/CFXS-UI-Dev/build",
+		"source" : "C:/CFXS_Projects/CFXS-UI-Dev"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

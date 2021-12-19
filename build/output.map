@@ -1,0 +1,113 @@
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 CFXS_UI_Dev/CMakeFiles/CFXS_UI_Dev.dir/Unity/unity_0_cxx.cxx.obj
+ .data          0x0000000000000000        0x0 CFXS_UI_Dev/CMakeFiles/CFXS_UI_Dev.dir/Unity/unity_0_cxx.cxx.obj
+ .bss           0x0000000000000000        0x0 CFXS_UI_Dev/CMakeFiles/CFXS_UI_Dev.dir/Unity/unity_0_cxx.cxx.obj
+ .text.main     0x0000000000000000        0x4 CFXS_UI_Dev/CMakeFiles/CFXS_UI_Dev.dir/Unity/unity_0_cxx.cxx.obj
+ .debug_info    0x0000000000000000      0x8e3 CFXS_UI_Dev/CMakeFiles/CFXS_UI_Dev.dir/Unity/unity_0_cxx.cxx.obj
+ .debug_abbrev  0x0000000000000000      0x1bf CFXS_UI_Dev/CMakeFiles/CFXS_UI_Dev.dir/Unity/unity_0_cxx.cxx.obj
+ .debug_aranges
+                0x0000000000000000       0x20 CFXS_UI_Dev/CMakeFiles/CFXS_UI_Dev.dir/Unity/unity_0_cxx.cxx.obj
+ .debug_ranges  0x0000000000000000       0x10 CFXS_UI_Dev/CMakeFiles/CFXS_UI_Dev.dir/Unity/unity_0_cxx.cxx.obj
+ .debug_line    0x0000000000000000      0x1e9 CFXS_UI_Dev/CMakeFiles/CFXS_UI_Dev.dir/Unity/unity_0_cxx.cxx.obj
+ .debug_str     0x0000000000000000      0x426 CFXS_UI_Dev/CMakeFiles/CFXS_UI_Dev.dir/Unity/unity_0_cxx.cxx.obj
+ .comment       0x0000000000000000       0x13 CFXS_UI_Dev/CMakeFiles/CFXS_UI_Dev.dir/Unity/unity_0_cxx.cxx.obj
+ .debug_frame   0x0000000000000000       0x20 CFXS_UI_Dev/CMakeFiles/CFXS_UI_Dev.dir/Unity/unity_0_cxx.cxx.obj
+ .ARM.attributes
+                0x0000000000000000       0x34 CFXS_UI_Dev/CMakeFiles/CFXS_UI_Dev.dir/Unity/unity_0_cxx.cxx.obj
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x0000000000000000 0x0000000000100000 xr
+SRAM             0x0000000020000000 0x0000000000040000 xrw
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD CFXS_UI_Dev/CMakeFiles/CFXS_UI_Dev.dir/Unity/unity_0_cxx.cxx.obj
+LOAD CFXS_UI_Dev/vendor/CFXS-Base/libCFXS_Base.a
+LOAD CFXS_UI_Dev/vendor/CFXS-HW/libCFXS_HW.a
+LOAD CFXS_UI_Dev/vendor/tm4c-driverlib/libtm4c_driverlib.a
+LOAD CFXS_UI_Dev/vendor/SeggerRTT-printf/libprintf_impl_SeggerRTT.a
+LOAD c:/msys64/mingw64/bin/../lib/gcc/arm-none-eabi/10.1.0/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libstdc++.a
+LOAD c:/msys64/mingw64/bin/../lib/gcc/arm-none-eabi/10.1.0/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a
+START GROUP
+LOAD c:/msys64/mingw64/bin/../lib/gcc/arm-none-eabi/10.1.0/thumb/v7e-m+fp/hard\libgcc.a
+LOAD c:/msys64/mingw64/bin/../lib/gcc/arm-none-eabi/10.1.0/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a
+LOAD c:/msys64/mingw64/bin/../lib/gcc/arm-none-eabi/10.1.0/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a
+END GROUP
+START GROUP
+LOAD c:/msys64/mingw64/bin/../lib/gcc/arm-none-eabi/10.1.0/thumb/v7e-m+fp/hard\libgcc.a
+LOAD c:/msys64/mingw64/bin/../lib/gcc/arm-none-eabi/10.1.0/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a
+LOAD c:/msys64/mingw64/bin/../lib/gcc/arm-none-eabi/10.1.0/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a
+END GROUP
+
+.text           0x0000000000000000        0x0
+                0x0000000000000000                . = ALIGN (0x4)
+                0x0000000000000000                _text = .
+ *(.vector_table)
+ *(.text .text* .gnu.linkonce.t.*)
+ *(.glue_7t)
+ .glue_7t       0x0000000000000000        0x0 linker stubs
+ *(.glue_7)
+ .glue_7        0x0000000000000000        0x0 linker stubs
+ *(.rodata .rodata* .gnu.linkonce.r.*)
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x0000000000000000                . = ALIGN (0x4)
+ *(.init)
+                0x0000000000000000                . = ALIGN (0x4)
+                0x0000000000000000                __PREINIT_ARRAY_START__ = .
+ *(SORT_BY_NAME(.preinit_array*))
+ *(.preinit_array)
+                0x0000000000000000                __PREINIT_ARRAY_END__ = .
+                0x0000000000000000                . = ALIGN (0x4)
+                0x0000000000000000                __INIT_ARRAY_START__ = .
+ *(SORT_BY_NAME(.init_array.*))
+ *(.init_array)
+                0x0000000000000000                __INIT_ARRAY_END__ = .
+                0x0000000000000000                . = ALIGN (0x4)
+ *(.fini)
+                0x0000000000000000                . = ALIGN (0x4)
+                0x0000000000000000                __FINI_ARRAY_START__ = .
+ *(.fini_array)
+ *(SORT_BY_NAME(.fini_array.*))
+                0x0000000000000000                __FINI_ARRAY_END__ = .
+                0x0000000000000000                . = ALIGN (0x4)
+                0x0000000000000000                __TEXT_END__ = .
+
+.vfp11_veneer   0x0000000000000000        0x0
+ .vfp11_veneer  0x0000000000000000        0x0 linker stubs
+
+.v4_bx          0x0000000000000000        0x0
+ .v4_bx         0x0000000000000000        0x0 linker stubs
+
+.data           0x0000000020000000        0x0 load address 0x0000000000000000
+                0x0000000020000000                . = ALIGN (0x4)
+                0x0000000020000000                __DATA_START__ = .
+ *(vtable)
+ *(.data .data* .gnu.linkonce.d.*)
+                0x0000000020000000                __DATA_END__ = .
+                [!provide]                        PROVIDE (__exidx_start = .)
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                [!provide]                        PROVIDE (__exidx_end = .)
+
+.bss            0x0000000020000000        0x0
+                0x0000000020000000                . = ALIGN (0x4)
+                0x0000000020000000                __BSS_START__ = .
+                0x0000000020000000                ___BSS_START___start__ = __BSS_START__
+ *(.bss*)
+ *(COMMON)
+                0x0000000020000000                . = ALIGN (0x4)
+                0x0000000020000000                __BSS_END__ = .
+                0x0000000020000000                ___BSS_START___end__ = __BSS_END__
+                0x0000000020000000                . = ALIGN (0x8)
+                0x0000000020000000                . = ALIGN (0x4)
+                0x0000000020000000                _end = .
+                [!provide]                        PROVIDE (end = _end)
+                [!provide]                        PROVIDE (__STACK_BASE__ = (ORIGIN (SRAM) + LENGTH (SRAM)))
+OUTPUT(CFXS_UI_Dev\CFXS_UI_Dev.elf elf32-littlearm)
+LOAD linker stubs

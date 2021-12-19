@@ -1,0 +1,17 @@
+C:/CFXS_Projects/CFXS-UI-Dev/build/CMakeFiles/edit_cache.dir
+C:/CFXS_Projects/CFXS-UI-Dev/build/CMakeFiles/rebuild_cache.dir
+C:/CFXS_Projects/CFXS-UI-Dev/build/CFXS_UI_Dev/CMakeFiles/CFXS_UI_Dev.dir
+C:/CFXS_Projects/CFXS-UI-Dev/build/CFXS_UI_Dev/CMakeFiles/edit_cache.dir
+C:/CFXS_Projects/CFXS-UI-Dev/build/CFXS_UI_Dev/CMakeFiles/rebuild_cache.dir
+C:/CFXS_Projects/CFXS-UI-Dev/build/CFXS_UI_Dev/vendor/CFXS-Base/CMakeFiles/CFXS_Base.dir
+C:/CFXS_Projects/CFXS-UI-Dev/build/CFXS_UI_Dev/vendor/CFXS-Base/CMakeFiles/edit_cache.dir
+C:/CFXS_Projects/CFXS-UI-Dev/build/CFXS_UI_Dev/vendor/CFXS-Base/CMakeFiles/rebuild_cache.dir
+C:/CFXS_Projects/CFXS-UI-Dev/build/CFXS_UI_Dev/vendor/CFXS-HW/CMakeFiles/CFXS_HW.dir
+C:/CFXS_Projects/CFXS-UI-Dev/build/CFXS_UI_Dev/vendor/CFXS-HW/CMakeFiles/edit_cache.dir
+C:/CFXS_Projects/CFXS-UI-Dev/build/CFXS_UI_Dev/vendor/CFXS-HW/CMakeFiles/rebuild_cache.dir
+C:/CFXS_Projects/CFXS-UI-Dev/build/CFXS_UI_Dev/vendor/tm4c-driverlib/CMakeFiles/tm4c_driverlib.dir
+C:/CFXS_Projects/CFXS-UI-Dev/build/CFXS_UI_Dev/vendor/tm4c-driverlib/CMakeFiles/edit_cache.dir
+C:/CFXS_Projects/CFXS-UI-Dev/build/CFXS_UI_Dev/vendor/tm4c-driverlib/CMakeFiles/rebuild_cache.dir
+C:/CFXS_Projects/CFXS-UI-Dev/build/CFXS_UI_Dev/vendor/SeggerRTT-printf/CMakeFiles/printf_impl_SeggerRTT.dir
+C:/CFXS_Projects/CFXS-UI-Dev/build/CFXS_UI_Dev/vendor/SeggerRTT-printf/CMakeFiles/edit_cache.dir
+C:/CFXS_Projects/CFXS-UI-Dev/build/CFXS_UI_Dev/vendor/SeggerRTT-printf/CMakeFiles/rebuild_cache.dir

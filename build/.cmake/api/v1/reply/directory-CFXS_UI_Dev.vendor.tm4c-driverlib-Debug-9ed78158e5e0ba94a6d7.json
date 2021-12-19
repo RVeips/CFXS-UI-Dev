@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "CFXS_UI_Dev/vendor/tm4c-driverlib",
+		"source" : "CFXS_UI_Dev/vendor/tm4c-driverlib"
+	}
+}

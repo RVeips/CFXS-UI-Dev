@@ -1,0 +1,660 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "CFXS_UI_Dev/vendor/tm4c-driverlib/libtm4c_driverlib.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"add_compile_options",
+			"add_compile_definitions",
+			"Target_CortexM4F",
+			"include",
+			"target_include_directories",
+			"target_precompile_headers"
+		],
+		"files" : 
+		[
+			"CFXS_UI_Dev/vendor/tm4c-driverlib/CMakeLists.txt",
+			"CFXS_UI_Dev/CMakeLists.txt",
+			"CMake/Target/CortexM4F.cmake",
+			"CFXS_UI_Dev/_Defines.cmake",
+			"CMake/Toolchain/GCC_ARM.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 19,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 14,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 7,
+				"parent" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 4,
+				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 5,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 56,
+				"parent" : 2
+			},
+			{
+				"file" : 3,
+				"parent" : 7
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 5,
+				"parent" : 8
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 11,
+				"parent" : 8
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 12,
+				"parent" : 8
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 4,
+				"parent" : 8
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 10,
+				"parent" : 8
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 2,
+				"parent" : 8
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 3,
+				"parent" : 8
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 6,
+				"parent" : 4
+			},
+			{
+				"file" : 5
+			},
+			{
+				"command" : 4,
+				"file" : 5,
+				"line" : 3,
+				"parent" : 17
+			},
+			{
+				"file" : 4,
+				"parent" : 18
+			},
+			{
+				"command" : 2,
+				"file" : 4,
+				"line" : 58,
+				"parent" : 19
+			},
+			{
+				"command" : 2,
+				"file" : 4,
+				"line" : 63,
+				"parent" : 19
+			},
+			{
+				"command" : 2,
+				"file" : 4,
+				"line" : 61,
+				"parent" : 19
+			},
+			{
+				"command" : 2,
+				"file" : 4,
+				"line" : 60,
+				"parent" : 19
+			},
+			{
+				"command" : 2,
+				"file" : 4,
+				"line" : 62,
+				"parent" : 19
+			},
+			{
+				"command" : 2,
+				"file" : 4,
+				"line" : 59,
+				"parent" : 19
+			},
+			{
+				"command" : 2,
+				"file" : 4,
+				"line" : 57,
+				"parent" : 19
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 20,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 22,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-DDEBUG            -gdwarf -Og     -Wno-comment -fno-common -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -fstrict-volatile-bitfields"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-mthumb"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-mcpu=cortex-m4"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-march=armv7e-m"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-mfpu=fpv4-sp-d16"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-mfloat-abi=hard"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wl,--gc-sections"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wl,--print-gc-sections"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wcast-align"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wsign-conversion"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wshadow"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wlogical-op"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wsuggest-final-types"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wsuggest-final-methods"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wno-unused-parameter"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wno-unused-function"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wno-sign-conversion"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wno-narrowing"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wno-sign-compare"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wno-shift-negative-value"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wno-cast-align"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wno-write-strings"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wno-tautological-compare"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-fdebug-prefix-map=\\\"C:/CFXS_Projects/CFXS-UI-Dev\\\"=."
+				},
+				{
+					"fragment" : "-Winvalid-pch -include C:/CFXS_Projects/CFXS-UI-Dev/build/CFXS_UI_Dev/vendor/tm4c-driverlib/CMakeFiles/tm4c_driverlib.dir/cmake_pch.h"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 5,
+					"define" : "CFXS_CORE_CORTEX_M4"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "CFXS_CORE_HAS_FPU"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "CFXS_CPU_CLOCK_FREQUENCY=120000000"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "CFXS_DEBUG"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "CFXS_DEBUG_ASSERT"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "CFXS_PLATFORM_TM4C"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "DEBUG"
+				},
+				{
+					"backtrace" : 14,
+					"define" : "PART_TM4C1294NCPDT"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "TARGET_IS_TM4C129_RA2"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "__bkpt=asm volatile(\"bkpt 0\")"
+				},
+				{
+					"backtrace" : 20,
+					"define" : "__interrupt=__attribute__((interrupt(\"irq\")))"
+				},
+				{
+					"backtrace" : 21,
+					"define" : "__naked=__attribute__((naked))"
+				},
+				{
+					"backtrace" : 22,
+					"define" : "__noinit=__attribute__((section(\".noinit\")))"
+				},
+				{
+					"backtrace" : 23,
+					"define" : "__used=__attribute__((used))"
+				},
+				{
+					"backtrace" : 24,
+					"define" : "__vector_table=__attribute__((section(\".vector_table\"), used))"
+				},
+				{
+					"backtrace" : 25,
+					"define" : "__weak=__attribute__((weak))"
+				},
+				{
+					"backtrace" : 26,
+					"define" : "gcc"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 27,
+					"path" : "C:/CFXS_Projects/CFXS-UI-Dev/CFXS_UI_Dev/vendor/tm4c-driverlib"
+				}
+			],
+			"language" : "C",
+			"precompileHeaders" : 
+			[
+				{
+					"backtrace" : 28,
+					"header" : "<stddef.h>"
+				},
+				{
+					"backtrace" : 28,
+					"header" : "<stdint.h>"
+				},
+				{
+					"backtrace" : 28,
+					"header" : "<stdbool.h>"
+				},
+				{
+					"backtrace" : 28,
+					"header" : "<string.h>"
+				}
+			],
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2
+			]
+		}
+	],
+	"id" : "tm4c_driverlib::@a28f78a031efd8bcfa84",
+	"name" : "tm4c_driverlib",
+	"nameOnDisk" : "libtm4c_driverlib.a",
+	"paths" : 
+	{
+		"build" : "CFXS_UI_Dev/vendor/tm4c-driverlib",
+		"source" : "CFXS_UI_Dev/vendor/tm4c-driverlib"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34
+			]
+		},
+		{
+			"name" : "Precompile Header File",
+			"sourceIndexes" : 
+			[
+				35
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"path" : "build/CFXS_UI_Dev/vendor/tm4c-driverlib/CMakeFiles/TM4C_driverlib.dir/cmake_pch.h.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"path" : "build/CFXS_UI_Dev/vendor/tm4c-driverlib/CMakeFiles/TM4C_driverlib.dir/Unity/unity_1_c.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"path" : "build/CFXS_UI_Dev/vendor/tm4c-driverlib/CMakeFiles/TM4C_driverlib.dir/Unity/unity_0_c.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "CFXS_UI_Dev/vendor/tm4c-driverlib/driverlib/adc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "CFXS_UI_Dev/vendor/tm4c-driverlib/driverlib/aes.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "CFXS_UI_Dev/vendor/tm4c-driverlib/driverlib/can.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "CFXS_UI_Dev/vendor/tm4c-driverlib/driverlib/comp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "CFXS_UI_Dev/vendor/tm4c-driverlib/driverlib/cpu.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "CFXS_UI_Dev/vendor/tm4c-driverlib/driverlib/crc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "CFXS_UI_Dev/vendor/tm4c-driverlib/driverlib/des.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "CFXS_UI_Dev/vendor/tm4c-driverlib/driverlib/eeprom.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "CFXS_UI_Dev/vendor/tm4c-driverlib/driverlib/emac.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "CFXS_UI_Dev/vendor/tm4c-driverlib/driverlib/epi.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "CFXS_UI_Dev/vendor/tm4c-driverlib/driverlib/flash.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "CFXS_UI_Dev/vendor/tm4c-driverlib/driverlib/fpu.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "CFXS_UI_Dev/vendor/tm4c-driverlib/driverlib/gpio.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "CFXS_UI_Dev/vendor/tm4c-driverlib/driverlib/hibernate.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "CFXS_UI_Dev/vendor/tm4c-driverlib/driverlib/i2c.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "CFXS_UI_Dev/vendor/tm4c-driverlib/driverlib/interrupt.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "CFXS_UI_Dev/vendor/tm4c-driverlib/driverlib/lcd.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "CFXS_UI_Dev/vendor/tm4c-driverlib/driverlib/mpu.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "CFXS_UI_Dev/vendor/tm4c-driverlib/driverlib/onewire.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "CFXS_UI_Dev/vendor/tm4c-driverlib/driverlib/pwm.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "CFXS_UI_Dev/vendor/tm4c-driverlib/driverlib/qei.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "CFXS_UI_Dev/vendor/tm4c-driverlib/driverlib/shamd5.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "CFXS_UI_Dev/vendor/tm4c-driverlib/driverlib/ssi.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "CFXS_UI_Dev/vendor/tm4c-driverlib/driverlib/sw_crc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "CFXS_UI_Dev/vendor/tm4c-driverlib/driverlib/sysctl.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "CFXS_UI_Dev/vendor/tm4c-driverlib/driverlib/sysexc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "CFXS_UI_Dev/vendor/tm4c-driverlib/driverlib/systick.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "CFXS_UI_Dev/vendor/tm4c-driverlib/driverlib/timer.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "CFXS_UI_Dev/vendor/tm4c-driverlib/driverlib/uart.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "CFXS_UI_Dev/vendor/tm4c-driverlib/driverlib/udma.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "CFXS_UI_Dev/vendor/tm4c-driverlib/driverlib/usb.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "CFXS_UI_Dev/vendor/tm4c-driverlib/driverlib/watchdog.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"path" : "build/CFXS_UI_Dev/vendor/tm4c-driverlib/CMakeFiles/TM4C_driverlib.dir/cmake_pch.h",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}
