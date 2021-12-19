@@ -1,3 +1,3 @@
 return {
-    ["ProjectName"] = "CFXS-UI-Dev"
+    ["ProjectName"] = "CFXS-UI-Dev",
 }
